@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    // Not working:
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+
+    // working with or without .js extensions:
+    // "module": "CommonJS",
+    // "moduleResolution": "node10" // NOTE: The docs suggest using node12 but TS complains wih the error:
+    // 'Value is not accepted. Valid values: "Classic", "Node", "Node10", "Node16", "NodeNext", "Bundler"'
+    // Docs: https://pnp.github.io/pnpjs/getting-started/#node-project-using-typescript-producing-commonjs-modules
+  }
+}

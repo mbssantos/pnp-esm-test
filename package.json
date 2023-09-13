@@ -1,0 +1,16 @@
+{
+  "name": "pnp-esm-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@azure/msal-node": "1.18.3",
+    "@pnp/nodejs": "^3.18.0",
+    "@pnp/sp": "^3.18.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0"
+  }
+}
